@@ -3,11 +3,25 @@
 Your code goes below.
 
 */
+let x = 3
+let y = 10
+let z = 5
+let name = 'Andy'
+let greeting = 'HEY'
 
+const multiply = num => x = num * x
 
+const modYBy = num => y = y % num
 
+const opposite = num => z = -num
+  
+function makeFullName(str) {
+  name = name + " " + str
+} 
 
-
+function yellAt(str) {
+  greeting = greeting + ", " + str + "!"
+}
 
 /*********************************************************************************************************************
 
